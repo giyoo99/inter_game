@@ -5,28 +5,12 @@ public class GameDto {
     private String name;
     private int gusl;
 
-    public int getGusl() {
-        return gusl;
+    public int getId() {
+        return id;
     }
 
-    public void setGusl(int gusl) {
-        this.gusl = gusl;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public String getUserPw() {
-        return userPw;
-    }
-
-    public void setUserPw(String userPw) {
-        this.userPw = userPw;
+    public void setId(int id) {
+        this.id = id;
     }
 
     public String getUserId() {
@@ -37,11 +21,27 @@ public class GameDto {
         this.userId = userId;
     }
 
-    public int getId() {
-        return id;
+    public String getUserPw() {
+        return userPw;
     }
 
-    public void setId(int id) {
-        this.id = id;
+    public void setUserPw(String userPw) {
+        this.userPw = userPw;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public int getGusl() {
+        return gusl;
+    }
+
+    public void setGusl(int gusl) {
+        this.gusl = gusl;
     }
 }
